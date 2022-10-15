@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/events/2022/*"
+  to = "https://www.google.com/"
+  status = 200
+  force = true
