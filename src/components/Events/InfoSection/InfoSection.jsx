@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Grid } from "@material-ui/core"
 //import { googleFormsToJson } from 'react-google-forms-hooks'
 import "./InfoSection.css"
-import event1 from "../../../assets/events/Fall_Mentorship_Program.jpg"
-import event2 from "../../../assets/events/Weekly_Leetcode.jpg"
+import event2 from "../../../assets/events/Fall_Mentorship_Program.jpg"
+import event1 from "../../../assets/events/Weekly_Leetcode.jpg"
 import event3 from "../../../assets/events/Career_Crawl.jpg"
 
 const form_width = "840"
