@@ -4,7 +4,7 @@ import { Grid } from "@material-ui/core"
 import "./InfoSection.css"
 import pastEvent1 from "../../../assets/past events/Resume_Roast.jpg"
 import pastEvent2 from "../../../assets/past events/React_Intro.jpg"
-import pastEvent3 from "../../../assets/past events/Resume_Roast.jpg"
+import pastEvent3 from "../../../assets/past events/Halloween.jpg"
 
 const form_width = "840"
 const form_height = "800"
