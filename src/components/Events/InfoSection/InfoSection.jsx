@@ -65,7 +65,7 @@ export class InfoSection extends Component {
                                 The Career Crawl will be held from <b>November 21 to 30</b>. It will consist of multiple info sessions and a networking event geared towards exposing students to a variety
                                 of industries, companies, and positions in tech. This event is a great opportunity for students to broaden their knowledge,
                                 gain connections, and ultimately advance their career opportinuties. Stay tuned to learn more about the companies attending
-                                our event and upcoming important dates
+                                our event and upcoming important dates!
                             </p> 
                                 </Grid>
                                 <Grid item md={3} spacing={2}>
