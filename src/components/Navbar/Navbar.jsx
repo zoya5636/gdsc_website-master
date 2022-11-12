@@ -23,7 +23,7 @@ export class Navbar extends Component {
                 <a className='logofloatright' target="_blank" href="https://www.instagram.com/gdscutsg">
                     <img src={instagramLogo} class='socialLogo' alt="discord logo"/>
                 </a>
-                <a className='navfloatright' href='/team/2020'>Team</a>
+                <a className='navfloatright' href='/team/2022'>Team</a>
                 <a className='navfloatright' href='/events/2022'>Upcoming Events</a>
                 <a className='navfloatright' href='/past_events/2022'>Past Events</a>
                 <a className='navfloatright' href="/">Home</a>
