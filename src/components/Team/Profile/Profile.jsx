@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Container, Typography } from "@material-ui/core"
 
-import blank from '../../../assets/old_team/blank.png'
+import blank from '../../../assets/team/blank.png'
 import aryan from '../../../assets/team/Aryan Ghosh.jpeg'
 import dhruvaa from '../../../assets/team/Dhruvaa.JPG'
 import donghyun from '../../../assets/team/Donghyun Suh.jpg'
