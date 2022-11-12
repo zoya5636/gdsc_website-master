@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Container, Typography } from "@material-ui/core"
-import alissa from '../../../assets/team/alissa.jpg'
+import zoya from '../../../assets/team/alissa.jpg'
 import ali from '../../../assets/team/ali.jpg'
 import anushka from '../../../assets/team/anushka.jpg'
 import bhavjot from '../../../assets/team/bhavjot.jpg'
@@ -106,7 +106,7 @@ const members = [
     },
     {
         name: 'Alissa Lozhkin',
-        photo: alissa,
+        photo: zoya,
         position: 'Web Developer',
     },
     {

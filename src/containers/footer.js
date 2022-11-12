@@ -11,7 +11,6 @@ export function FooterContainer() {
                 <Footer.Title>About Us</Footer.Title>
                     <Footer.Link href="#">Home</Footer.Link>
                     <Footer.Link href="#">Events</Footer.Link>
-                    <Footer.Link href="#">Blog</Footer.Link>
                     <Footer.Link href="#">Team</Footer.Link>
                 </Footer.Column>
                 <Footer.Column>
