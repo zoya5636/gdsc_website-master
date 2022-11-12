@@ -28,6 +28,7 @@ import zoya from '../../../assets/team/zoya.jpg'
 import narges from '../../../assets/team/Narges_Movahedian_Nezhad.jpg'
 import ellie from '../../../assets/team/Ellie.JPG'
 import ariana from '../../../assets/team/Ariana_Jung.jpg'
+import faatima from '../../../assets/team/Faatima Abidi.jpg'
 
 import './Profile.css'
 
@@ -167,7 +168,7 @@ const members = [
     },
     {
         name: 'Faatima Zehera Abidi',
-        photo: blank,
+        photo: faatima,
         position: 'Marketing Associate',
     },
     {
