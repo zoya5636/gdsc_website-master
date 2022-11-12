@@ -1,28 +1,34 @@
 import React, { Component } from 'react'
 import { Grid, Container, Typography } from "@material-ui/core"
-import zoya from '../../../assets/team/alissa.jpg'
-import ali from '../../../assets/team/ali.jpg'
-import anushka from '../../../assets/team/anushka.jpg'
-import bhavjot from '../../../assets/team/bhavjot.jpg'
-import divya from '../../../assets/team/divya.jpeg'
-import jose from '../../../assets/team/jose.jpg'
-import karishma from '../../../assets/team/karishma.jpeg'
-import mihir from '../../../assets/team/mihir.jpg'
-import samreen from '../../../assets/team/samreen.jpg'
-import shysta from '../../../assets/team/shysta.jpg'
-import tanya from '../../../assets/team/tanya.jpeg'
-import blank from '../../../assets/team/blank.png'
-import chloe from '../../../assets/team/chloe.jpg'
-import jeannie from '../../../assets/team/jeannie.jpg'
-import shahan from '../../../assets/team/shahan.jpg'
-import erica from '../../../assets/team/erica.jpg'
-import sashveena from '../../../assets/team/sashveena.jpg'
-import joseph from '../../../assets/team/joseph.jpg'
-import jia from '../../../assets/team/jia.jpg'
-import vama from '../../../assets/team/vama.jpg'
-import william from '../../../assets/team/william.jpg'
-import jolina from '../../../assets/team/jolina.jpg'
-import mahak from '../../../assets/team/mahak.jpg'
+
+import blank from '../../../assets/old_team/blank.png'
+import aryan from '../../../assets/team/Aryan Ghosh.jpeg'
+import dhruvaa from '../../../assets/team/Dhruvaa.JPG'
+import donghyun from '../../../assets/team/Donghyun Suh.jpg'
+import ege from '../../../assets/team/Ege Mert Akin.jpeg'
+import elizabeth from '../../../assets/team/Elizabeth Lee-Chin.jpeg'
+import halyn from '../../../assets/team/Halyn Oh.jpeg'
+import hongzip from '../../../assets/team/Hongzip Kim.jpg'
+import hrid from '../../../assets/team/Hrid Patel.jpeg'
+import inaas from '../../../assets/team/Inaas.jpg'
+import isabelle from '../../../assets/team/Isabelle Tam.jpg'
+import isha from '../../../assets/team/Isha Juneja.jpg'
+import jasmine from '../../../assets/team/Jasmine Yang.jpg'
+import jessie from '../../../assets/team/Jessie Lam.jpeg'
+import jolina from '../../../assets/team/Jolina Li.png'
+import khushil from '../../../assets/team/Khushil Nagda.jpg'
+import min from '../../../assets/team/Min Gi.jpeg'
+import nayanika from '../../../assets/team/Nayanika Mathur.JPG'
+import sergio from '../../../assets/team/Sergio Perez.jpeg'
+import william from '../../../assets/team/William.jpeg'
+import xiao from '../../../assets/team/XIao.jpeg'
+import yixing from '../../../assets/team/Yixing Xu.jpg'
+import yuming from '../../../assets/team/Yuming.png'
+import zoya from '../../../assets/team/zoya.jpg'
+import narges from '../../../assets/team/Narges_Movahedian_Nezhad.jpg'
+import ellie from '../../../assets/team/Ellie.JPG'
+import ariana from '../../../assets/team/Ariana_Jung.jpg'
+
 import './Profile.css'
 
 // link will break eventually, picked up from linkedin
@@ -30,119 +36,144 @@ import './Profile.css'
 
 const members = [
     {
-        name: 'Chloe Bell',
-        photo: chloe,
+        name: 'Jolina Li',
+        photo: jolina,
         position: 'GDSC Lead',
     },
     {
-        name: 'Jose Siliézar',
-        photo: jose,
+        name: 'Yuming Huang',
+        photo: yuming,
         position: 'GDSC Vice-Lead',
     },
     {
-        name: 'Anushka Saini',
-        photo: anushka,
-        position: 'Marketing Director',
+        name: 'Yixing Xu',
+        photo: yixing,
+        position: 'Logistics Director',
     },
     {
-        name: 'Jeannie Yoo',
-        photo: jeannie,
-        position: 'Marketing Director',
+        name: 'William Guo',
+        photo: william,
+        position: 'Logistics Director',
     },
     {
-        name: 'Samreen Khatib Syed',
-        photo: samreen,
-        position: 'Graphic Designer',
+        name: 'Jessie Lam',
+        photo: jessie,
+        position: 'Event Director',
     },
     {
-        name: 'Shahan Nanda',
-        photo: shahan,
-        position: 'Graphic Designer',
+        name: 'Isabelle Tam',
+        photo: isabelle,
+        position: 'Event Director',
     },
     {
-        name: 'Divya Gupta',
-        photo: divya,
-        position: 'Content Writer',
+        name: 'Halyn Oh (Ashley)',
+        photo: halyn,
+        position: 'Operations Associate',
     },
     {
-        name: 'Erica Eng',
-        photo: erica,
-        position: 'Content Writer',
+        name: 'Khushil Nagda',
+        photo: khushil,
+        position: 'Operations Associate',
     },
     {
-        name: 'Shashveena Kanapathy',
-        photo: sashveena,
-        position: 'Project Director',
+        name: 'Narges Movahedian Nezhad',
+        photo: narges,
+        position: 'Workshop Director',
     },
     {
-        name: 'Karishma Shah',
-        photo: karishma,
-        position: 'Mentorship Director',
+        name: 'Donghyun Danny Suh',
+        photo: donghyun,
+        position: 'Workshop Director',
     },
     {
-        name: 'Tanya Thaker',
-        photo: tanya,
-        position: 'Mentorship Director',
-    },
-    {
-        name: 'Joseph Lee',
-        photo: joseph,
+        name: 'Xiao Zhang',
+        photo: xiao,
         position: 'Experience Director',
     },
     {
-        name: 'Shysta Sehgal',
-        photo: shysta,
-        position: 'Research Director',
+        name: 'Sergio Andres Perez Torres',
+        photo: sergio,
+        position: 'Experience Director',
     },
     {
-        name: 'Mihir Vittalam',
-        photo: mihir,
-        position: 'Events Director',
+        name: 'Elizabeth Lee-Chin',
+        photo: elizabeth,
+        position: 'Industry Editor',
     },
     {
-        name: 'Bhavjot Grewal',
-        photo: bhavjot,
-        position: 'Web Developer',
+        name: 'Isha Juneja',
+        photo: isha,
+        position: 'Outreach Associate',
     },
     {
-        name: 'Alissa Lozhkin',
+        name: 'Hongzip Kim',
+        photo: hongzip,
+        position: 'Outreach Associate',
+    },
+    {
+        name: 'Dhruvaa Saravanan',
+        photo: dhruvaa,
+        position: 'Mentorship Program Director',
+    },
+    {
+        name: 'Nayanika Mathur',
+        photo: nayanika,
+        position: 'Mentorship Program Director',
+    },
+    {
+        name: 'Ellie Kang',
+        photo: ellie,
+        position: 'Project Director',
+    },
+    {
+        name: 'Ege Mert Akin',
+        photo: ege,
+        position: 'Project Director',
+    },
+    {
+        name: 'Aurora Zhang',
+        photo: blank,
+        position: 'Mentorship Associate',
+    },
+    {
+        name: 'Min Gi Kwon',
+        photo: min,
+        position: 'Mentorship Associate',
+    },
+    {
+        name: 'Aryan Ghosh',
+        photo: aryan,
+        position: 'Marketing Director',
+    },
+    {
+        name: 'Jasmine Yang',
+        photo: jasmine,
+        position: 'Marketing Director',
+    },
+    {
+        name: 'Ariana Jung',
+        photo: ariana,
+        position: 'Graphic Designer',
+    },
+    {
+        name: 'Hrid Patel',
+        photo: hrid,
+        position: 'Graphic Designer',
+    },
+    {
+        name: 'Inaas Asad',
+        photo: inaas,
+        position: 'Marketing Associate',
+    },
+    {
+        name: 'Faatima Zehera Abidi',
+        photo: blank,
+        position: 'Marketing Associate',
+    },
+    {
+        name: 'Zoya Chishtie',
         photo: zoya,
         position: 'Web Developer',
-    },
-    {
-        name: 'Jia Hao Choo',
-        photo: jia,
-        position: 'Technical Director',
-    },
-    {
-        name: 'Ali Syed',
-        photo: ali,
-        position: 'Technical Director',
-    },
-    {
-        name: 'Vama Dave',
-        photo: vama,
-        position: 'Outreach Associate',
-    },
-    {
-        name: 'William Zhang',
-        photo: william,
-        position: 'Outreach Associate',
-    },
-    {
-        name: 'Sanjana Dasadia',
-        photo: blank,
-        position: 'Outreach Associate',
-    },
-    {
-        name: 'Jolina Li',
-        photo: jolina,
-        position: 'Operations Associate',
-    },
-    {
-        name: 'Mahak Khurmi',
-        photo: mahak,
-        position: 'Operations Associate',
     }
 ]
 
