@@ -5,6 +5,7 @@ import "./InfoSection.css"
 import pastEvent1 from "../../../assets/past events/Resume_Roast.jpg"
 import pastEvent2 from "../../../assets/past events/React_Intro.jpg"
 import pastEvent3 from "../../../assets/past events/Halloween.jpg"
+import pastEvent4 from "../../../assets/past events/TensorFlow.jpg"
 
 const form_width = "840"
 const form_height = "800"
@@ -68,6 +69,24 @@ export class InfoSection extends Component {
                                 </Grid>
                                 <Grid item md={3} spacing={2}>
                                     <img src={pastEvent3} width="300" height="300" alt="stock" />
+                                </Grid>
+                            </Grid>
+                        </div>
+                    </Grid>
+
+                    <Grid item md={10} spacing={3} style={{backgroundColor: 'white'}}>
+                        <div className='infoSectionContent'>
+                            <Grid container justify="center" spacing={5}>
+                                <Grid item md={3} spacing={2}>
+                                    <img src={pastEvent4} width="300" height="300" alt="stock" />
+                                </Grid>
+                                <Grid item md={4} spacing={2}>
+                                    <h2>TensorFlow Workshop</h2>
+                                    <p>
+                                        On <b>November 19</b>, this workshop went over the basics of building neural networks for software engineers,
+                                        through neural weights and biases, activation functions, supervised learning, and gradient descent. We started
+                                        with low-level Tensorflow and included a sample of high-level Tensorflow code using layers and data sets
+                                    </p> 
                                 </Grid>
                             </Grid>
                         </div>

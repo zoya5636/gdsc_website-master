@@ -5,7 +5,6 @@ import "./InfoSection.css"
 import event2 from "../../../assets/events/Fall_Mentorship_Program.jpg"
 import event1 from "../../../assets/events/Weekly_Leetcode.jpg"
 import event3 from "../../../assets/events/Career_Crawl.jpg"
-import event4 from "../../../assets/events/TensorFlow.jpg"
 
 const form_width = "840"
 const form_height = "800"
@@ -71,24 +70,6 @@ export class InfoSection extends Component {
                                 </Grid>
                                 <Grid item md={3} spacing={2}>
                                     <img src={event3} width="300" height="300" alt="stock" />
-                                </Grid>
-                            </Grid>
-                        </div>
-                    </Grid>
-
-                    <Grid item md={10} spacing={3} style={{backgroundColor: 'white'}}>
-                        <div className='infoSectionContent'>
-                            <Grid container justify="center" spacing={5}>
-                                <Grid item md={3} spacing={2}>
-                                    <img src={event4} width="300" height="300" alt="stock" />
-                                </Grid>
-                                <Grid item md={4} spacing={2}>
-                                    <h2>Fall Mentorship Program</h2>
-                                    <p>
-                                        Mentees will be paired with a mentor in the program. The program runs from <b>October to December</b>. Mentors are a
-                                        mix of upper-year students in a related field and industry professionals. Participants have the chance to hear from our
-                                        mentors in this mentorship program introductory event!
-                                    </p> 
                                 </Grid>
                             </Grid>
                         </div>
