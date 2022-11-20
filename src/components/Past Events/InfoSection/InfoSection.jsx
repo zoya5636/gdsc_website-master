@@ -83,7 +83,7 @@ export class InfoSection extends Component {
                                 <Grid item md={4} spacing={2}>
                                     <h2>TensorFlow Workshop</h2>
                                     <p>
-                                        On <b>November 19</b>, this workshop went over the basics of building neural networks for software engineers,
+                                        This workshop went over the basics of building neural networks for software engineers,
                                         through neural weights and biases, activation functions, supervised learning, and gradient descent. We started
                                         with low-level Tensorflow and included a sample of high-level Tensorflow code using layers and data sets
                                     </p> 
