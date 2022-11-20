@@ -10,7 +10,7 @@ export class Video extends Component {
                         <iframe className="videoLanding" width="100%" height="378" src="https://www.youtube.com/embed/rYAlnlg_vaw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <iframe className="videoLanding" width="100%" height="378" src="https://www.youtube.com/embed/suqRP5sBMMM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="videoLanding" width="100%" height="378" src="https://www.youtube.com/embed/Jqf52nThBt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Grid>
                 </Grid>
             </div>

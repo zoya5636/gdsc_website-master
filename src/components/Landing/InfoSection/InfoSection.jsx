@@ -19,7 +19,7 @@ export class InfoSection extends Component {
                                 <p>
                                     Meet students at UofT with a similar passion for technology, and 
                                     share your interest for developer technologies. Anyone, from any
-                                    backgroumd, is welcome to join us!
+                                    background, is welcome to join us!
                                 </p> 
                         </Grid>
                         <Grid item md={5} spacing={2}>

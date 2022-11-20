@@ -35,7 +35,7 @@ export class Intro extends Component {
                             />
                         </Grid>
                         <Grid item xs={12} id="introBtn">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMfyBJFZSd2z9ZOthc2fp5ANqMPdamUi2GQegsRWtq8FQdlg/viewform">
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfMfyBJFZSd2z9ZOthc2fp5ANqMPdamUi2GQegsRWtq8FQdlg/viewform">
                                 <Button style={{minWidth: '150px', minHeight: '45px'}} variant="contained" id="joinBtn">
                                     Join the Club
                                 </Button>

@@ -28,7 +28,7 @@ export class InfoSection extends Component {
                                     application, and strong first impressions are crucial for standing out among other applicants. In this workshop, we
                                     introduced the basics of resume creation and provide perspective on lesser-known tools and tactics for an easier
                                     process. This was an excellent opportunity to learn how to construct a stand-out resume and the dos and don’ts of
-                                    mastering your application! Bonus: we selected a volunteer’s resume and “burn” it in a resume roast segment
+                                    mastering your application! Bonus: we selected a volunteer’s resume and “burn” it in a resume roast segment!
                                 </p> 
                                 </Grid>
                                 <Grid item md={3} spacing={2}>
