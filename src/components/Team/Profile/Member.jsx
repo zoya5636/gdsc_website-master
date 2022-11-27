@@ -31,17 +31,12 @@ export class Member extends Component {
                         modal.style.display = "none";
                         
                     }
-                }>X</span>
-                        <h3>{this.member.name} - {this.member.position}</h3>
-                        <p>{this.member.description}</p>
+                    }>X</span>
+                            <h3>{this.member.name} - {this.member.position}</h3>
+                            <p>{this.member.description}</p>
+                    </div>
                 </div>
-
-                </div>
-                <div className='member'>
-                    <a>
-                        <img className='memberPhoto' src={`${this.member.photo}`} alt='user' />
-                        <div className='memberInfo'>
-                        <button id="popupBtn" onClick={() => {
+                <button id="popupBtn" onClick={() => {
                                 let modal = document.getElementById(this.member.name);
 
                                 // Get the button that opens the modal
@@ -55,14 +50,16 @@ export class Member extends Component {
                                 
                             }
                         }>
+                <div className='member'>
+                        <img className='memberPhoto' src={`${this.member.photo}`} alt='user' />
+                        <div className='memberInfo'>
                             
                                 <h3 className='memberName'>{this.member.name}</h3>
                                 <small className='memberPosition'>{this.member.position}</small>
                                 {/* <p className='memberDesc'>{member.desc}</p> */}
-                            </button>
                         </div>
-                    </a>
                 </div>
+                </button>
             </Grid>
 
         )}
