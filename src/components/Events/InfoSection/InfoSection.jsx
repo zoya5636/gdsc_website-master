@@ -51,7 +51,7 @@ export class InfoSection extends Component {
                                         mentors in this mentorship program introductory event!
                                         <br></br>
                                         <br></br>
-                                        Be sure to check out the available forms to apply for the role of mentor or mentee!
+                                        Be sure to click to see the forms to apply for the role of <a href='https://docs.google.com/forms/d/e/1FAIpQLSdBEznWelUJvLTGuyGXsj0aGo6-2aYO_du_BLTarmy2nwufMw/viewform' target='blank'><b class="hyperlinks">mentee</b></a> or <a href='https://docs.google.com/forms/d/e/1FAIpQLSeNYyc_Uf0FIy9Q6d5oR7D9CveRcZlaOVHiksVAMa6vRDoRQQ/viewform' target='blank'><b class='hyperlinks'>mentor</b></a>!
                                     </p> 
                                 </Grid>
                             </Grid>
@@ -67,7 +67,7 @@ export class InfoSection extends Component {
                                 On <b>February 9</b>, GDSC is thrilled to have Jeff Nguyen, a Technical Recruiter for Google and Founder of Boba Talks.
                                 Boba Talks is an NPO that helps students navigate the ambiguities of early career and life development through mentorship with folks in the roles and industries that students aspire to be in. This way, students can ask the questions that actually matter to them.
                                 Ask him anything, whether personal, mental health, career, or anything to do with Boba!
-                                If you are interested, <a href='https://gdsc.community.dev/events/details/developer-student-clubs-university-of-toronto-st-george-campus-presents-ask-me-anything-with-jeff-nguyen-a-technical-recruiter-for-google-and-founder-of-boba-talks/' target="blank"><b>click here</b></a> to
+                                If you are interested, <a href='https://gdsc.community.dev/events/details/developer-student-clubs-university-of-toronto-st-george-campus-presents-ask-me-anything-with-jeff-nguyen-a-technical-recruiter-for-google-and-founder-of-boba-talks/' target="blank"><b class="hyperlinks">click here</b></a> to
                                 sign up!
                                 </p> 
                                 </Grid>
