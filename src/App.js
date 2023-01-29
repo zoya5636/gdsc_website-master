@@ -16,9 +16,9 @@ function App() {
       <BrowserRouter>
       <Switch>
         <Route exact path='/' render={() => (<Landing />)}/>
-        <Route exact path='/team/2022' render={() => (<Team />)}/> 
-        <Route exact path='/events/2022' render={() => (<Events />)}/> 
-        <Route exact path='/past_events/2022' render={() => (<PastEvents />)}/>        
+        <Route exact path='/team/2022-2023' render={() => (<Team />)}/> 
+        <Route exact path='/events/2022-2023' render={() => (<Events />)}/> 
+        <Route exact path='/past_events/2022-2023' render={() => (<PastEvents />)}/>        
       </Switch>
       </BrowserRouter>
       <FooterContainer></FooterContainer>

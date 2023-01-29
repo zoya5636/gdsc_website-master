@@ -10,9 +10,9 @@ export function FooterContainer() {
                 <Footer.Column>
                 <Footer.Title>About Us</Footer.Title>
                     <Footer.Link href='/'>Home</Footer.Link>
-                    <Footer.Link href='/events/2022'>Upcoming Events</Footer.Link>
-                    <Footer.Link href='/past_events/2022'>Past Events</Footer.Link>
-                    <Footer.Link href='/team/2022'>Team</Footer.Link>
+                    <Footer.Link href='/events/2022-2023'>Upcoming Events</Footer.Link>
+                    <Footer.Link href='/past_events/2022-2023'>Past Events</Footer.Link>
+                    <Footer.Link href='/team/2022-2023'>Team</Footer.Link>
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>Social</Footer.Title>
