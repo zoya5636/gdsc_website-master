@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { Grid } from "@material-ui/core"
 //import { googleFormsToJson } from 'react-google-forms-hooks'
 import "./InfoSection.css"
-import event2 from "../../../assets/events/Fall_Mentorship_Program.jpg"
 import event1 from "../../../assets/events/Weekly_Leetcode.jpg"
-import event3 from "../../../assets/events/Career_Crawl.jpg"
+import event2 from "../../../assets/events/Winter_Mentorship.jpg"
+import event3 from "../../../assets/events/Ask_Anything.jpg"
 
 const form_width = "840"
 const form_height = "800"
@@ -24,11 +24,10 @@ export class InfoSection extends Component {
                                 <Grid item md={5} spacing={2}>
                                 <h2>Weekly LeetCode Jams</h2>
                                 <p>
-                                    Get ready with our Weekly LeetCode Workshop! The event will be starting on <b>Saturday, November 12.</b> On the day, we
-                                    will release the first batch of LeetCode problems at <b>3:00pm</b>. Next, on the following <b>Friday,
-                                    November 18</b>, we will hold our first in-person discussion from <b>5:00pm to 6:30pm</b>, and then the following <b>Saturday,
-                                    November 19</b>, the second batch of problems. We will continue posting problems and holding discussions weekly until
-                                    we have covered all topics and main problems in Grind 75. It’s an opportunity that you don’t want to miss!
+                                    Get ready with our Weekly LeetCode Workshop! Each Saturday, we
+                                    will release a batch of LeetCode problems at <b>3:00pm</b>. Next, on the following <b>Friday</b>, we will hold
+                                    an in-person discussion from <b>6:00pm to 7:00pm</b>. We will continue posting problems and holding discussions weekly
+                                    until we have covered all topics and main problems in Grind 75. It’s an opportunity that you don’t want to miss!
                                 </p> 
                             </Grid>
                             <Grid item md={3} spacing={2}>
@@ -45,11 +44,14 @@ export class InfoSection extends Component {
                                     <img src={event2} width="300" height="300" alt="stock" />
                                 </Grid>
                                 <Grid item md={4} spacing={2}>
-                                    <h2>Fall Mentorship Program</h2>
+                                    <h2>Winter Mentorship Program</h2>
                                     <p>
-                                        Mentees will be paired with a mentor in the program. The program runs from <b>October to December</b>. Mentors are a
+                                        Mentees will be paired with a mentor in the program. Mentors are a
                                         mix of upper-year students in a related field and industry professionals. Participants have the chance to hear from our
                                         mentors in this mentorship program introductory event!
+                                        <br></br>
+                                        <br></br>
+                                        Be sure to check out the available forms to apply for the role of mentor or mentee!
                                     </p> 
                                 </Grid>
                             </Grid>
@@ -60,12 +62,13 @@ export class InfoSection extends Component {
                         <div className='infoSectionContent'>
                             <Grid container justify="center" spacing={5}>
                                 <Grid item md={5} spacing={2}>
-                                <h2>Career Crawl</h2>
+                                <h2>Ask Me Anything</h2>
                                 <p>
-                                    The Career Crawl will be held from <b>November 21 to 30</b>. It will consist of multiple info sessions and a networking event geared towards exposing students to a variety
-                                    of industries, companies, and positions in tech. This event is a great opportunity for students to broaden their knowledge,
-                                    gain connections, and ultimately advance their career opportinuties. Stay tuned to learn more about the companies attending
-                                    our event and upcoming important dates!
+                                On <b>February 9</b>, GDSC is thrilled to have Jeff Nguyen, a Technical Recruiter for Google and Founder of Boba Talks.
+                                Boba Talks is an NPO that helps students navigate the ambiguities of early career and life development through mentorship with folks in the roles and industries that students aspire to be in. This way, students can ask the questions that actually matter to them.
+                                Ask him anything, whether personal, mental health, career, or anything to do with Boba!
+                                If you are interested, <a href='https://gdsc.community.dev/events/details/developer-student-clubs-university-of-toronto-st-george-campus-presents-ask-me-anything-with-jeff-nguyen-a-technical-recruiter-for-google-and-founder-of-boba-talks/' target="blank"><b>click here</b></a> to
+                                sign up!
                                 </p> 
                                 </Grid>
                                 <Grid item md={3} spacing={2}>

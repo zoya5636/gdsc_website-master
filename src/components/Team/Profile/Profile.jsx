@@ -203,7 +203,7 @@ const members = [
         name: 'Zoya Chishtie',
         photo: zoya,
         position: 'Web Developer',
-        description: 'Hi, I’m Zoya and  anECE2T4. I’m the Web Developer here at GDSC. As someone deeply passionate about technology, I’m excited to meet new people who share that interest and help them grow in this field. As the Web Developer, I wish to enhance my skillset surrounding technology and software, particularly web development. I look forward to hosting workshops to help people develop skills that will benefit them in careers related to technology, or simply to foster personal interest.',
+        description: 'Hi, I’m Zoya and an ECE2T4. I’m the Web Developer here at GDSC. As someone deeply passionate about technology, I’m excited to meet new people who share that interest and help them grow in this field. As the Web Developer, I wish to enhance my skillset surrounding technology and software, particularly web development. I look forward to hosting workshops to help people develop skills that will benefit them in careers related to technology, or simply to foster personal interest.',
     }
 ]
 
@@ -218,7 +218,7 @@ export class Profile extends Component {
     render() {
         return (
             <div className="memberContainer">
-                <Grid id="hi" container justify="center" spacing={3}>
+                <Grid container justify="center" spacing={3}>
                     {members.map((member, i) => {
                         return (
                             <Member name={member.name} photo={member.photo} position={member.position} description={member.description}></Member>

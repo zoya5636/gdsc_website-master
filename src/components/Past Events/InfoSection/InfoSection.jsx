@@ -6,6 +6,9 @@ import pastEvent1 from "../../../assets/past events/Resume_Roast.jpg"
 import pastEvent2 from "../../../assets/past events/React_Intro.jpg"
 import pastEvent3 from "../../../assets/past events/Halloween.jpg"
 import pastEvent4 from "../../../assets/past events/TensorFlow.jpg"
+import pastEvent5 from "../../../assets/past events/Career_Crawl.jpg"
+import pastEvent6 from "../../../assets/past events/Fall_Mentorship_Program.jpg"
+import pastEvent7 from "../../../assets/past events/Clubs_Fair.jpg"
 
 const form_width = "840"
 const form_height = "800"
@@ -87,6 +90,58 @@ export class InfoSection extends Component {
                                         through neural weights and biases, activation functions, supervised learning, and gradient descent. We started
                                         with low-level Tensorflow and included a sample of high-level Tensorflow code using layers and data sets
                                     </p> 
+                                </Grid>
+                            </Grid>
+                        </div>
+                    </Grid>
+
+                    <Grid item md={9} spacing={3} style={{backgroundColor: 'white'}}>
+                        <div className='infoSectionContent'>
+                            <Grid container justify="center" spacing={5}>
+                                <Grid item md={5} spacing={2}>
+                                <h2>Career Crawl</h2>
+                                <p>
+                                    The Career Crawl consisted of multiple info sessions and a networking event geared towards exposing students to a variety
+                                    of industries, companies, and positions in tech. This event was a great opportunity for students to broaden their knowledge,
+                                    gain connections, and ultimately advance their career opportinuties.
+                                </p> 
+                                </Grid>
+                                <Grid item md={3} spacing={2}>
+                                    <img src={pastEvent5} width="300" height="300" alt="stock" />
+                                </Grid>
+                            </Grid>
+                        </div>
+                    </Grid>
+
+                    <Grid item md={10} spacing={3} style={{backgroundColor: 'white'}}>
+                        <div className='infoSectionContent'>
+                            <Grid container justify="center" spacing={5}>
+                                <Grid item md={3} spacing={2}>
+                                    <img src={pastEvent6} width="300" height="300" alt="stock" />
+                                </Grid>
+                                <Grid item md={4} spacing={2}>
+                                    <h2>Fall Mentorship Program</h2>
+                                    <p>
+                                        Mentees were paired with a mentor in the program. The program ran from October to December. Mentors were a
+                                        mix of upper-year students in a related field and industry professionals. Participants had the chance to hear from our
+                                        mentors in this mentorship program introductory event.
+                                    </p> 
+                                </Grid>
+                            </Grid>
+                        </div>
+                    </Grid>
+
+                    <Grid item md={9} spacing={3} style={{backgroundColor: 'white'}}>
+                        <div className='infoSectionContent'>
+                            <Grid container justify="center" spacing={5}>
+                                <Grid item md={5} spacing={2}>
+                                <h2>Clubs Fair</h2>
+                                <p>
+                                    The Clubs Fair was a great opportunity to meet team representitives and learn more about the planned events for this semester.
+                                </p> 
+                                </Grid>
+                                <Grid item md={3} spacing={2}>
+                                    <img src={pastEvent7} width="300" height="300" alt="stock" />
                                 </Grid>
                             </Grid>
                         </div>

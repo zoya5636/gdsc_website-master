@@ -6,9 +6,6 @@ export class Member extends Component {
     constructor(member) {
         super(member);
         this.member = member
-        this.state = {
-          count: 0
-        };
       }
 
       render() {
@@ -31,7 +28,7 @@ export class Member extends Component {
                         modal.style.display = "none";
                         
                     }
-                    }>X</span>
+                    }>x</span>
                             <h3>{this.member.name} - {this.member.position}</h3>
                             <p>{this.member.description}</p>
                     </div>
